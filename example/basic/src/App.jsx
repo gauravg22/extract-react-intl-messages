@@ -10,9 +10,10 @@ export const SubmitButton = injectIntl(({ intl }) => {
 })
 
 export const HelloButton = () => {
-  const intl = useIntl()
+  const intl = useIntl();
+  const id = App.hello;
   const label = intl.formatMessage({
-    id: 'App.hello',
+    id,
     defaultMessage: 'Hello Button'
   })
   return <button aria-label={label}>{label}</button>

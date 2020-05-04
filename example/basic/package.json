@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "i18n": "NODE_ENV=development extract-messages -l=en,ja -o i18n -d en 'src/**/*.{js,jsx}'"
+    "i18n": "NODE_ENV=development extract-messages -l=en,ja -o i18n -d en --flat false 'src/**/*.{js,jsx}'"
   },
   "dependencies": {
     "react": "^16.13.1",
