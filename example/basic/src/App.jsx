@@ -11,7 +11,7 @@ export const SubmitButton = injectIntl(({ intl }) => {
 
 export const HelloButton = () => {
   const intl = useIntl();
-  const id = App.hello;
+  const id = 'App.hello';
   const label = intl.formatMessage({
     id,
     defaultMessage: 'Hello Button'
